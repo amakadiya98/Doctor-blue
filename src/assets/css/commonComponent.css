@@ -68,7 +68,7 @@
     margin-bottom: 8px;
 }
 .doctor-card .doctor-card-content .text-part h6{
-    color: #FF6036;
+    color: #23bee3;
     font-weight: 400;
     margin-bottom: 10px;
 }
@@ -91,7 +91,7 @@
 }
 .doctor-card .bottom-bar{
     background-color: #FDF5F2;
-    color: #FF6036;
+    color: #23bee3;
     font-size: 16px;
     font-weight: 500;
     padding: 16px 0;
@@ -162,7 +162,7 @@
     color: #1D2432;
 }
 .assign-doctor-card .doctor-card-content .text-part p{
-    color: #FF6036;
+    color: #23bee3;
     font-size: 15px;
     font-weight: 400;
     margin-bottom: 10px;
@@ -197,7 +197,7 @@
 }
 .assign-slider .bottom-part p{
     margin-bottom: 0;
-    color: #FF6036;
+    color: #23bee3;
     font-size: 15px;
     font-weight: 500;
 }
@@ -206,13 +206,13 @@
     color: #fff;
     font-weight: 500;
     border-radius: 8px;
-    background-color: #FF6036;
+    background-color: #23bee3;
     padding: 8px;
 }
 .componentBtn:hover{
-    background-color: #ff6036cf !important;
+    background-color: #23bee3cf !important;
     box-shadow: none;
-    border-color: #FF6036;
+    border-color: #23bee3;
 }
 .componentBtn.green-btn{
     background-color: #12D372;
@@ -308,7 +308,7 @@
 }
 .exercise-tab-part .nav-tabs .nav-link:hover, .exercise-tab-part .nav-tabs .nav-link:focus, .exercise-tab-part .nav-tabs .nav-link.active{
     border: 0;
-    background-color: #FF6036;
+    background-color: #23bee3;
     color: #fff;
 }
 .exercise-tab-part .nav-tabs .nav-link{
@@ -316,7 +316,7 @@
     background-color: #FDF5F2;
     font-size: 14px;
     font-weight: 500;
-    color: #FF6036;
+    color: #23bee3;
     min-width: 90px;
     margin-right: 10px;
 }
@@ -460,11 +460,11 @@
     background: #ccc;
   }
   .control input:checked ~ .control__indicator {
-    background: #FF6036;
+    background: #23bee3;
   }
   .control:hover input:not([disabled]):checked ~ .control__indicator,
   .control input:checked:focus ~ .control__indicator {
-    background: #FF6036;
+    background: #23bee3;
   }
   .control input:disabled ~ .control__indicator {
     background: #e6e6e6;
@@ -576,7 +576,17 @@
     content: "";
 }
 .checkbox input[type="checkbox"]:checked + label::before{
-    background-color: #FF6036;
-    border-color: #FF6036;
+    background-color: #23bee3;
+    border-color: #23bee3;
 }
 
+
+/* community-card */
+.community-card{
+    border-radius: 14px;
+    filter: drop-shadow(0 0 8.5px rgba(0,0,0,0.06));
+    background-color: #ffffff;
+}
+.community-card .image-part img{
+    width: 100%;
+}

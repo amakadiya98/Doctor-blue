@@ -64,19 +64,19 @@ a{
   border-radius: 28px;
   min-width: 300px;
   padding: 14px;
-  border: 1px solid #FF6036;
+  border: 1px solid #23bee3;
   background-color: transparent;
-  color: #FF6036;
+  color: #23bee3;
   font-weight: 600;
 }
 .theme-outline-btn:hover, .theme-outline-btn:focus, .theme-outline-btn:focus-visible{
-  background-color: #ff6036cf !important;
+  background-color: #23bee3cf !important;
   box-shadow: none;
-  border-color: #FF6036;
+  border-color: #23bee3;
   color: #fff;
 }
 .theme-button{
-  background-color: #FF6036;
+  background-color: #23bee3;
   font-size: 16px;
   border-radius: 28px;
   min-width: 300px;
@@ -84,9 +84,9 @@ a{
   font-weight: 600;
 }
 .theme-button:hover, .theme-button:focus, .btn:focus-visible{
-  background-color: #ff6036cf !important;
+  background-color: #23bee3cf !important;
   box-shadow: none;
-  border-color: #FF6036;
+  border-color: #23bee3;
 }
 .theme-button span{
   font-weight: 500;
@@ -219,7 +219,7 @@ textarea.form-control:focus{
   border-radius: 14px;
 }
 .progressBar .progress .progress-bar{
-  background-color: #FF6036;
+  background-color: #23bee3;
   border-radius: 14px;
 }
 
@@ -251,7 +251,7 @@ textarea.form-control:focus{
 /* note-part */
 .note-part{
   background-color: #FDF5F3;
-  color: #FF6036;
+  color: #23bee3;
   padding: 30px;
 }
 
@@ -305,10 +305,10 @@ input:focus{
 }
 .yes-no-radio input[type="radio"]:checked + .box {
   background-color: transparent;
-  border: 1px solid #FF6036;
+  border: 1px solid #23bee3;
 }
 .yes-no-radio input[type="radio"]:checked + .box span {
-  color: #FF6036;
+  color: #23bee3;
 }
 .yes-no-radio .box {
   border: 1px solid #EAEAEA;
