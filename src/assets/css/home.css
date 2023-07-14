@@ -62,3 +62,86 @@
   text-decoration: none;
   padding-right: 30px;
 }
+
+.main-home-part .left-part,
+.main-home-part .right-part {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 45px;
+  width: 100%;
+}
+.main-home-part .right-part{
+  width: 95%;
+}
+.main-home-part .left-part .top-card {
+  display: flex;
+  width: 100%;
+  background-color: #C1E8F5;
+  border-radius: 14px;
+  position: relative;
+}
+
+.left-part .top-card .info-block {
+  position: absolute;
+  right: 70px;
+  top: 30px;
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  gap: 10px;
+}
+.left-part .top-card .info-block h3{
+  font-size: 27px;
+  line-height: 32px;
+  font-weight: 400;
+  width: 80%;
+}
+.left-part .top-card .info-block .play-btn {
+  all: unset;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  gap: 8px;
+  background-color: #fff;
+  padding: 5px 16px;
+  border-radius: 15px;
+}
+.main-home-part .doctors-list{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.06);
+  border-radius: 14px;
+  padding: 30px;
+}
+.main-home-part .title-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.main-home-part .title-block h6{
+  font-size: 18px;
+  font-weight: 400;
+}
+.main-home-part .view-all-btn {
+  all: unset;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 400;
+  color: #23BEE3;
+}
+
+.main-home-part .recommanded {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}

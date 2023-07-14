@@ -31,15 +31,15 @@ const Sidebar = () => {
           <Link
             to='/dashboard'
             style={{ textDecoration: "none", color: "inherit" }}>
-            <div className={` ${activePage === 'dashboard' || activePage === 'doctorList' ? 'nav-btn active' : 'nav-btn'}`}>
-              <img src={activePage === 'dashboard' || activePage === 'doctorList' ? homeActive : home} alt="" className='icon' />
+            <div className={` ${activePage === 'dashboard' ? 'nav-btn active' : 'nav-btn'}`}>
+              <img src={activePage === 'dashboard' ? homeActive : home} alt="" className='icon' />
               <p className='text'>Home</p>
             </div>
           </Link>
           <Link
             to='/exercises'
             style={{ textDecoration: "none", color: "inherit" }}>
-            <div className={`${activePage === 'patient' ? 'nav-btn active' : 'nav-btn'}`}>
+            <div className={`${activePage === 'exercises' ? 'nav-btn active' : 'nav-btn'}`}>
               <img src={activePage === 'exercises' ? excersizeActive : excersize} alt="" className='icon' />
               <p className='text'>Exercises</p>
             </div>
@@ -47,7 +47,7 @@ const Sidebar = () => {
           <Link
             to='/appointment'
             style={{ textDecoration: "none", color: "inherit" }}>
-            <div className={`${activePage === 'point' ? 'nav-btn active' : 'nav-btn'}`}>
+            <div className={`${activePage === 'appointment' ? 'nav-btn active' : 'nav-btn'}`}>
               <img src={activePage === 'appointment' ? appointmentActive : appointment} alt="" className='icon' />
               <p className='text'>Appointment</p>
             </div>
@@ -55,7 +55,7 @@ const Sidebar = () => {
           <Link
             to='/community'
             style={{ textDecoration: "none", color: "inherit" }}>
-            <div className={`${activePage === 'point' ? 'nav-btn active' : 'nav-btn'}`}>
+            <div className={`${activePage === 'community' ? 'nav-btn active' : 'nav-btn'}`}>
               <img src={activePage === 'community' ? communityActive : community} alt="" className='icon' />
               <p className='text'>Community</p>
             </div>
