@@ -3,11 +3,13 @@ import logo from '../assets/images/docpy.svg'
 import '../assets/css/sidebar.css'
 import logout from '../assets/images/signOut.svg'
 import home from '../assets/images/home.svg'
-import patient from '../assets/images/patients.svg'
-import point from '../assets/images/point.svg'
 import homeActive from '../assets/images/homeActive.svg'
-import pointActive from '../assets/images/pointActive.svg'
-import patientActive from '../assets/images/patientActive.svg'
+import community from '../assets/images/community.svg';
+import communityActive from '../assets/images/community-active.svg';
+import excersize from '../assets/images/excersize.svg';
+import excersizeActive from '../assets/images/excersize-active.svg';
+import appointment from '../assets/images/appointment.svg';
+import appointmentActive from '../assets/images/appointment-active.svg';
 import { useLocation, Link, useNavigate } from 'react-router-dom'
 
 const Sidebar = () => {
@@ -24,7 +26,6 @@ const Sidebar = () => {
       <div className="logo-part">
         <img src={logo} alt="docpy-logo" width={150} />
       </div>
-      <button className='btn btn-add'>+ Add Exercises</button>
       <div className="nav-part">
         <div className="top-navpart">
           <Link
@@ -36,19 +37,27 @@ const Sidebar = () => {
             </div>
           </Link>
           <Link
-            to='/patient'
+            to='/exercises'
             style={{ textDecoration: "none", color: "inherit" }}>
             <div className={`${activePage === 'patient' ? 'nav-btn active' : 'nav-btn'}`}>
-              <img src={activePage === 'patient' ? patientActive : patient} alt="" className='icon' />
-              <p className='text'>Patient</p>
+              <img src={activePage === 'exercises' ? excersizeActive : excersize} alt="" className='icon' />
+              <p className='text'>Exercises</p>
             </div>
           </Link>
           <Link
-            to='/point'
+            to='/appointment'
             style={{ textDecoration: "none", color: "inherit" }}>
             <div className={`${activePage === 'point' ? 'nav-btn active' : 'nav-btn'}`}>
-              <img src={activePage === 'point' ? pointActive : point} alt="" className='icon' />
-              <p className='text'>Point</p>
+              <img src={activePage === 'appointment' ? appointmentActive : appointment} alt="" className='icon' />
+              <p className='text'>Appointment</p>
+            </div>
+          </Link>
+          <Link
+            to='/community'
+            style={{ textDecoration: "none", color: "inherit" }}>
+            <div className={`${activePage === 'point' ? 'nav-btn active' : 'nav-btn'}`}>
+              <img src={activePage === 'community' ? communityActive : community} alt="" className='icon' />
+              <p className='text'>Community</p>
             </div>
           </Link>
         </div>
