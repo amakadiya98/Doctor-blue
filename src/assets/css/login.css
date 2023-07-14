@@ -13,7 +13,7 @@
   display: flex;
   flex: 1 1 auto;
   height: 100%;
-  background: #fbfcfd;
+  background: #FBFCFD;
   align-items: center;
   justify-content: center;
 }
@@ -149,7 +149,7 @@
 }
 .login-main .form-part .content .middle-form .info-text a {
   text-decoration: none;
-  color: #23bee3;
+  color: #23BEE3;
   font-weight: 500;
 }
 .login-main .form-part .content .action-part {
@@ -164,7 +164,7 @@
   display: inline-flex;
   padding: 10px;
   border-radius: 30px;
-  background: #23bee3;
+  background: #23BEE3;
   width: 100%;
   text-align: center;
   align-items: center;
@@ -172,22 +172,22 @@
   font-size: 16px;
   line-height: 25px;
   color: white;
-  border: 1px solid #23bee3;
+  border: 1px solid #23BEE3;
   font-weight: 600;
 }
 .login-main .form-part .content .action-part .btn-orange:hover {
-  color: #23bee3;
+  color: #23BEE3;
   background-color: #fff;
 }
 .login-main .form-part .content .action-part .btn-orange.outline {
   background: #fff;
-  border: 1px solid #23bee3;
-  color: #23bee3;
+  border: 1px solid #23BEE3;
+  color:#23BEE3;
   font-weight: 600;
 }
 .login-main .form-part .content .action-part .btn-orange.outline:hover {
   color: white;
-  background: #23bee3;
+  background: #23BEE3;
 }
 .login-main .form-part .content .action-part .divider {
   display: flex;
@@ -240,8 +240,8 @@
   gap: 10px;
 }
 .content-modal .modal-inside-content .edit-badge {
-  background-color: #23bee333 !important;
-  color: #23bee3 !important;
+  background-color: #EBF7FF !important;
+  color: #23BEE3 !important;
   padding: 6px 10px;
     margin-left: 10px;
     font-size: 10px;
@@ -299,7 +299,7 @@
     color: white;
     font-size: 16px;
     font-weight: 600;
-    background-color: #23bee3;
+    background-color: #23BEE3;
     border-radius: 30px;
 }
 
@@ -314,7 +314,7 @@
     cursor: pointer;
     font-size: 15px;
     font-weight: 600;
-    color: #23bee3;
+    color: #23BEE3;
     margin: -10px 0;
 }
 .content-modal .modal-inside-content .timer {

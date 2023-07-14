@@ -68,7 +68,7 @@
     margin-bottom: 8px;
 }
 .doctor-card .doctor-card-content .text-part h6{
-    color: #23bee3;
+    color: #23BEE3;
     font-weight: 400;
     margin-bottom: 10px;
 }
@@ -91,7 +91,7 @@
 }
 .doctor-card .bottom-bar{
     background-color: #FDF5F2;
-    color: #23bee3;
+    color: #23BEE3;
     font-size: 16px;
     font-weight: 500;
     padding: 16px 0;
@@ -105,11 +105,15 @@
 }
 
 /* appointmentcard */
+.owl-carousel{
+    margin-left: -20px;
+}
 .appointment-card, .assign-doctor-card{
     padding: 24px;
     background-color: #fff;
     border-radius: 14px;
     box-shadow: 0px 1px 15px #0000000f;
+    margin: 12px;
 }
 .appointment-card .img-time-part{
     display: flex;
@@ -162,7 +166,7 @@
     color: #1D2432;
 }
 .assign-doctor-card .doctor-card-content .text-part p{
-    color: #23bee3;
+    color: #23BEE3;
     font-size: 15px;
     font-weight: 400;
     margin-bottom: 10px;
@@ -197,22 +201,22 @@
 }
 .assign-slider .bottom-part p{
     margin-bottom: 0;
-    color: #23bee3;
+    color: #23BEE3;
     font-size: 15px;
     font-weight: 500;
 }
 .componentBtn{
     font-size: 19px;
     color: #fff;
-    font-weight: 500;
+    font-weight: 400;
     border-radius: 8px;
-    background-color: #23bee3;
+    background-color: #23BEE3;
     padding: 8px;
 }
 .componentBtn:hover{
-    background-color: #23bee3cf !important;
+    background-color: #23BEE3cf !important;
     box-shadow: none;
-    border-color: #23bee3;
+    border-color: #23BEE3;
 }
 .componentBtn.green-btn{
     background-color: #12D372;
@@ -222,6 +226,21 @@
     background-color: #12D372 !important;
     box-shadow: none;
     border-color: #12D372;
+}
+.white-shdow-btn{
+    box-shadow: 0px 1px 15px #0000000f;
+    width: 100%;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #23BEE3;
+    background-color: transparent;
+    border-radius: 14px;
+    margin-bottom: 15px;
+}
+.white-shdow-btn:hover{
+    background-color: transparent;
+    color: #23BEE3;
 }
 /* upcomingPatientsCard */
 .upcomingPatientsCard  .bottom-bar {
@@ -308,7 +327,7 @@
 }
 .exercise-tab-part .nav-tabs .nav-link:hover, .exercise-tab-part .nav-tabs .nav-link:focus, .exercise-tab-part .nav-tabs .nav-link.active{
     border: 0;
-    background-color: #23bee3;
+    background-color: #23BEE3;
     color: #fff;
 }
 .exercise-tab-part .nav-tabs .nav-link{
@@ -316,7 +335,7 @@
     background-color: #FDF5F2;
     font-size: 14px;
     font-weight: 500;
-    color: #23bee3;
+    color: #23BEE3;
     min-width: 90px;
     margin-right: 10px;
 }
@@ -358,10 +377,10 @@
     width: 100%;
     margin-bottom: 20px;
 }
-.appointmentPart{
+/* .appointmentPart{
     height: 50vh;
     overflow: auto;
-}
+} */
 /* ex-card */
 .ex-card{
     box-shadow: 0px 1px 15px #0000000f;
@@ -460,11 +479,11 @@
     background: #ccc;
   }
   .control input:checked ~ .control__indicator {
-    background: #23bee3;
+    background: #23BEE3;
   }
   .control:hover input:not([disabled]):checked ~ .control__indicator,
   .control input:checked:focus ~ .control__indicator {
-    background: #23bee3;
+    background: #23BEE3;
   }
   .control input:disabled ~ .control__indicator {
     background: #e6e6e6;
@@ -576,17 +595,22 @@
     content: "";
 }
 .checkbox input[type="checkbox"]:checked + label::before{
-    background-color: #23bee3;
-    border-color: #23bee3;
+    background-color: #23BEE3;
+    border-color: #23BEE3;
 }
 
-
-/* community-card */
-.community-card{
-    border-radius: 14px;
-    filter: drop-shadow(0 0 8.5px rgba(0,0,0,0.06));
-    background-color: #ffffff;
-}
-.community-card .image-part img{
+.patientListpartTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
+    margin-bottom: 14px;
+}
+.patientListpartTitle h6{
+    font-size: 16px;
+    font-weight: 500;
+}
+.patientListpartTitle a{
+    font-size: 12px;
+    color: #23BEE3;
 }

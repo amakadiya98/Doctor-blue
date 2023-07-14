@@ -139,7 +139,7 @@ const DoctorDetails = () => {
                 </Col>
             </Row>
             <div className='buttonPart mt-3 d-flex justify-content-center'>
-                <Button className='theme-button'>Assign <span>Dr. Henna S.</span></Button>
+                <Button className='theme-button' style={{fontWeight: 400}}>Assign <span>Dr. Henna S.</span></Button>
             </div>
         </div>
       </div>

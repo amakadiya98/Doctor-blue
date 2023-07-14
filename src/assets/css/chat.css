@@ -145,7 +145,7 @@
 .chat-page .main-chat-part .messages-part  .message-typing-block .sent{
     width: 50px;
     height: 50px;
-    background-color: #23bee3;
+    background-color: #23BEE3;
     border-radius: 50%;
 }
 .chat-page .chatting-person .chat-card{
@@ -160,7 +160,7 @@
     cursor: pointer;
 }
 .chat-page .chatting-person .chat-card.active{
-    border: 1px solid #23bee3;
+    border: 1px solid #23BEE3;
 }
 .chat-page .chatting-person .chat-card .text-block{
     width: 100%;
@@ -183,7 +183,7 @@
     color: #ADADAD;
 }
 .chat-page .chatting-person .chat-card .text-block  p.msg-badge{
-    background-color: #23bee3;
+    background-color: #23BEE3;
     font-size: 12px;
     font-weight: 400;
     color: #fff;

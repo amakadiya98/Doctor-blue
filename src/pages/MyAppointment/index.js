@@ -21,12 +21,18 @@ const MyAppointment = () => {
                     </div>
                 </Col>
                 <Col lg={7}>
-                    <div className='mb-4'>
+                <div className='doctorDetailsCard mb-3'>
+                  <div className='patientListpartTitle'>
+                    <h6>Today’s patient</h6>
+                  </div>
+                  <div className='mb-4 w-100'>
                         <UpcomingPatientsCard />
                     </div>
-                    <div className='mb-4'>
+                    <div className='mb-4 w-100'>
                         <UpcomingPatientsCard />
                     </div>
+              </div>
+                  
                 </Col>
             </Row>
         </div>

@@ -8,7 +8,7 @@ const options = {
     loop:true,
     nav:false,
     dots:false,
-    margin:30, 
+    margin:0, 
     responsive: {
         0: {
             items: 1,
@@ -38,7 +38,7 @@ const AppointmentCard = () => {
         <div class='container-fluid' >      
         <OwlCarousel {...options}
             className="owl-theme">
-            <div>
+            
                 <div className='appointment-card'>
                     <div className='doctor-card-content'>
                         <div className='img-time-part'>
@@ -58,8 +58,6 @@ const AppointmentCard = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div>
                 <div className='appointment-card'>
                     <div className='doctor-card-content'>
                         <div className='img-time-part'>
@@ -79,8 +77,6 @@ const AppointmentCard = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div >
                 <div className='appointment-card'>
                     <div className='doctor-card-content'>
                         <div className='img-time-part'>
@@ -100,8 +96,6 @@ const AppointmentCard = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div>
                 <div className='appointment-card'>
                     <div className='doctor-card-content'>
                         <div className='img-time-part'>
@@ -121,8 +115,6 @@ const AppointmentCard = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div >
                 <div className='appointment-card'>
                     <div className='doctor-card-content'>
                         <div className='img-time-part'>
@@ -142,8 +134,6 @@ const AppointmentCard = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div>
                 <div className='appointment-card'>
                     <div className='doctor-card-content'>
                         <div className='img-time-part'>
@@ -163,8 +153,6 @@ const AppointmentCard = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div >
                 <div className='appointment-card'>
                     <div className='doctor-card-content'>
                         <div className='img-time-part'>
@@ -184,7 +172,6 @@ const AppointmentCard = () => {
                         </div>
                     </div>
                 </div>
-            </div>
         </OwlCarousel>
         </div>
 
