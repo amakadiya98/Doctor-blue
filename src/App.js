@@ -30,12 +30,17 @@ import PatientContactInformation from './pages/PatientContactInformation'
 import Foot from './pages/Foot'
 import ApplicationSettingCalendar from './pages/ApplicationSettingCalendar'
 import './assets/css/responisve.css'
+import HealthProfile from './pages/HealthProfile';
+
+
+
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/login' element={<Login />} />
+        <Route path='/profile' element={<HealthProfile />} />
         <Route path='/dashboard' element={<Dashboard />} />
         <Route path='/patient' element={<Patient />} />
         <Route path='/point' element={<Points />} />

@@ -16,7 +16,7 @@ const Login = () => {
   const closeModal = () => setModalShow(false);
 
   const submitOTP = () => {
-    navigate('/dashboard');
+    navigate('/profile');
   }
 
   return (
