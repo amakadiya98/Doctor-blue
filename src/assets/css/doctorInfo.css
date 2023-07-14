@@ -55,7 +55,7 @@
 .doctorDetailsCard .doctorContent .doctorInfo h5{
     font-size: 21px;
     font-weight: 400;
-    color: #23bee3;
+    color: #23BEE3;
 }
 .doctorDetailsCard .doctorContent .doctorInfo h6{
     font-size: 21px;
@@ -66,6 +66,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    margin-top: 8px;
 }
 .doctorDetailsCard .doctorContent .logInfo .badge{
     width: 68px;
@@ -191,7 +192,7 @@
     border-bottom-right-radius: 14px;
 }
 .doctorDetailsCard .bottom-part a{
-    color: #23bee3;
+    color: #23BEE3;
     font-size: 14px;
     font-weight: 500;
     text-decoration: none;
@@ -221,8 +222,8 @@
     left: -9999px;
 }
 .radio-badge-part label input:checked + span {
-    background-color: #23bee3;
-    border: 1px solid #23bee3;
+    background-color: #23BEE3;
+    border: 1px solid #23BEE3;
     color: #fff;
 }
 .radio-badge-part label input:checked + span:before {
@@ -240,8 +241,8 @@
     text-align: center;
 }
 .radio-badge-part label span:hover {
-    background-color: #23bee3;
-    border: 1px solid #23bee3;
+    background-color: #23BEE3;
+    border: 1px solid #23BEE3;
     color: #fff;
 }
 
@@ -251,13 +252,13 @@
 }
 .radio-badge-part.radio-badge-outline label input:checked + span {
     background-color: transparent;
-    border: 1px solid #23bee3;
-    color: #23bee3;
+    border: 1px solid #23BEE3;
+    color: #23BEE3;
 }
 .radio-badge-part.radio-badge-outline label span:hover {
     background-color: transparent;
-    border: 1px solid #23bee3;
-    color: #23bee3;
+    border: 1px solid #23BEE3;
+    color: #23BEE3;
 }
 .radio-badge-outline label{
     font-size: 12px !important;

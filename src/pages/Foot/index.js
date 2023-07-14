@@ -9,6 +9,7 @@ import Ex1 from '../../assets/images/ex-1.png'
 import Modal from 'react-bootstrap/Modal';
 import { useLocation, Link, useNavigate } from 'react-router-dom'
 import checkIcon from '../../assets/images/check (1).png'
+import FilterIcon from '../../assets/images/filter.svg'
 
 const Foot = () => {
     const [show, setShow] = useState(false);
@@ -24,34 +25,39 @@ const Foot = () => {
                             <div className='foot-sidebar'>
                                 <h6>Choose Session</h6>
                                 <Nav variant="pills" className="flex-column">
-                                <Nav.Item className='d-flex justify-content-between align-items-center'>
-                                <Nav.Link eventKey="first">
-                                            Morning Session</Nav.Link>
-                                        <div class="checkbox me-2">
+                                <Nav.Item className='d-flex justify-content-start align-items-center'>
+                                <div class="checkbox me-2">
                                                     <input type="checkbox" id="checkbox_6" />
                                                     <label for="checkbox_6"></label>
                                                     </div>
+                                <Nav.Link eventKey="first">
+                                
+                                            Morning Session</Nav.Link>
+                                       
                                     </Nav.Item>
-                                    <Nav.Item className='d-flex justify-content-between align-items-center'>
-                                        <Nav.Link eventKey="second">Afternoon Session </Nav.Link>
-                                        <div class="checkbox me-2">
+                                    <Nav.Item className='d-flex justify-content-start align-items-center'>
+                                    <div class="checkbox me-2">
                                                     <input type="checkbox" id="checkbox_4" />
                                                     <label for="checkbox_4"></label>
                                                     </div>
+                                        <Nav.Link eventKey="second">Afternoon Session </Nav.Link>
+                                       
                                     </Nav.Item>
-                                    <Nav.Item className='d-flex justify-content-between align-items-center'>
-                                    <Nav.Link eventKey="third">Evening Session</Nav.Link>
-                                        <div class="checkbox me-2">
+                                    <Nav.Item className='d-flex justify-content-start align-items-center'>
+                                    <div class="checkbox me-2">
                                                     <input type="checkbox" id="checkbox_5" />
                                                     <label for="checkbox_5"></label>
                                                     </div>
+                                    <Nav.Link eventKey="third">Evening Session</Nav.Link>
+                                        
                                     </Nav.Item>
-                                    <Nav.Item className='d-flex justify-content-between align-items-center'>
-                                    <Nav.Link eventKey="four">Night Session</Nav.Link>
-                                        <div class="checkbox me-2">
+                                    <Nav.Item className='d-flex justify-content-start align-items-center'>
+                                    <div class="checkbox me-2">
                                                     <input type="checkbox" id="checkbox_6" />
                                                     <label for="checkbox_6"></label>
                                                     </div>
+                                    <Nav.Link eventKey="four">Night Session</Nav.Link>
+                                       
                                     </Nav.Item>
                                 </Nav>
                             </div>
@@ -66,6 +72,9 @@ const Foot = () => {
                                             <img src={SearchIcon} alt='searchIcon' />
                                         </div>
                                         <input type='text' placeholder='Search exercises' />
+                                        <div className='filterIcon'>
+                                            <img src={FilterIcon} alt='filterIcon' />
+                                        </div>
                                     </div>
                                 </div>
                                 <Tab.Content>

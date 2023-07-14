@@ -12,7 +12,7 @@ const options = {
     loop:true,
     nav:false,
     dots:false,
-    margin:30, 
+    margin:0, 
     responsive: {
         0: {
             items: 1,

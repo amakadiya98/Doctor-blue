@@ -64,19 +64,19 @@ a{
   border-radius: 28px;
   min-width: 300px;
   padding: 14px;
-  border: 1px solid #23bee3;
+  border: 1px solid #23BEE3;
   background-color: transparent;
-  color: #23bee3;
+  color: #23BEE3;
   font-weight: 600;
 }
 .theme-outline-btn:hover, .theme-outline-btn:focus, .theme-outline-btn:focus-visible{
-  background-color: #23bee3cf !important;
+  background-color: #23BEE3cf !important;
   box-shadow: none;
-  border-color: #23bee3;
+  border-color: #23BEE3;
   color: #fff;
 }
 .theme-button{
-  background-color: #23bee3;
+  background-color: #23BEE3;
   font-size: 16px;
   border-radius: 28px;
   min-width: 300px;
@@ -84,9 +84,9 @@ a{
   font-weight: 600;
 }
 .theme-button:hover, .theme-button:focus, .btn:focus-visible{
-  background-color: #23bee3cf !important;
+  background-color: #23BEE3cf !important;
   box-shadow: none;
-  border-color: #23bee3;
+  border-color: #23BEE3;
 }
 .theme-button span{
   font-weight: 500;
@@ -219,7 +219,7 @@ textarea.form-control:focus{
   border-radius: 14px;
 }
 .progressBar .progress .progress-bar{
-  background-color: #23bee3;
+  background-color: #23BEE3;
   border-radius: 14px;
 }
 
@@ -245,13 +245,19 @@ textarea.form-control:focus{
   left: 30px;
   top: 22px;
 }
+.serchPart .searchInput .filterIcon{
+  position: absolute;
+    right: 24px;
+    top: 22px;
+    cursor: pointer;
+}
 .serchPart .searchInput input:focus{
   outline: 0;
 }
 /* note-part */
 .note-part{
   background-color: #FDF5F3;
-  color: #23bee3;
+  color: #23BEE3;
   padding: 30px;
 }
 
@@ -305,10 +311,10 @@ input:focus{
 }
 .yes-no-radio input[type="radio"]:checked + .box {
   background-color: transparent;
-  border: 1px solid #23bee3;
+  border: 1px solid #23BEE3;
 }
 .yes-no-radio input[type="radio"]:checked + .box span {
-  color: #23bee3;
+  color: #23BEE3;
 }
 .yes-no-radio .box {
   border: 1px solid #EAEAEA;

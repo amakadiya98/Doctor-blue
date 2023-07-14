@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import '../../assets/css/login.css';
-import doctorsImg from '../../assets/images/Group 3038.svg';
+import doctorsImg from '../../assets/images/login-page-banner.svg';
 import { AiOutlineClose } from 'react-icons/ai';
-import IndiaFlag from '../../assets/images/country-flag.svg';
-import { BiSolidDownArrow } from 'react-icons/bi';
 import { Modal, Badge } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import TruecalloerLogo from '../../assets/images/Truecaller_Logo.png'

@@ -29,8 +29,6 @@ import AppointSetting from './pages/AppointSetting'
 import PatientContactInformation from './pages/PatientContactInformation'
 import Foot from './pages/Foot'
 import ApplicationSettingCalendar from './pages/ApplicationSettingCalendar'
-import Community from './pages/Community'
-
 import './assets/css/responisve.css'
 function App() {
   return (
@@ -40,7 +38,7 @@ function App() {
         <Route path='/login' element={<Login />} />
         <Route path='/dashboard' element={<Dashboard />} />
         <Route path='/patient' element={<Patient />} />
-        <Route path='/points' element={<Points />} />
+        <Route path='/point' element={<Points />} />
         <Route path='/doctorList' element={<DoctorList />} />
         <Route path='/doctorDetails' element={<DoctorDetails/>} />
         <Route path='/doctorAllSlot' element={<DoctorAllSlot/>} />
@@ -63,7 +61,6 @@ function App() {
         <Route path='/patientContactInformation' element={<PatientContactInformation />}/>
         <Route path='/foot' element={<Foot />} />
         <Route path='/applicationSettingCalendar' element={<ApplicationSettingCalendar />} />
-        <Route path='/community' element={<Community />} />
       </Routes>
     </BrowserRouter>
   );

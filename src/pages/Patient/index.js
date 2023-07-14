@@ -15,7 +15,7 @@ const Patient = () => {
       <div className='main-content-part topBox'>
         <div className='innerInfo withoutOrange'>
           <Row>
-            <Col lg={5}>
+            <Col xl={5} lg={12}>
               <div className='doctorDetailsCard'>
                 <div className="doctorContent">
                   calendar
@@ -32,7 +32,7 @@ const Patient = () => {
                           <h5>Emily Thomas</h5>
                           <p className='gray'>Heart Surgery</p>
                           <p>5:45 PM, <span style={{ color: '#ADADAD' }}>Feb 24</span></p>
-                          <Button className="componentBtn green-btn mt-3">30 Feb 2023</Button>
+                          <Button className="componentBtn green-btn mt-3 w-100">30 Feb 2023</Button>
                         </div>
                       </div>
 
@@ -46,49 +46,7 @@ const Patient = () => {
                           <h5>Emily Thomas</h5>
                           <p className='gray'>Heart Surgery</p>
                           <p>5:45 PM, <span style={{ color: '#ADADAD' }}>Feb 24</span></p>
-                          <Button className="componentBtn green-btn mt-3">30 Feb 2023</Button>
-                        </div>
-                      </div>
-
-                    </div>
-                    <div className='doctor-card upcomingPatientsCard mb-3'>
-                      <div className='doctor-card-content'>
-                        <div className='image-part d-flex align-items-center'>
-                          <img src={PatientImg} alt='Patient' className='w-100' />
-                        </div>
-                        <div className='text-part w-100'>
-                          <h5>Emily Thomas</h5>
-                          <p className='gray'>Heart Surgery</p>
-                          <p>5:45 PM, <span style={{ color: '#ADADAD' }}>Feb 24</span></p>
-                          <Button className="componentBtn green-btn mt-3">30 Feb 2023</Button>
-                        </div>
-                      </div>
-
-                    </div>
-                    <div className='doctor-card upcomingPatientsCard mb-3'>
-                      <div className='doctor-card-content'>
-                        <div className='image-part d-flex align-items-center'>
-                          <img src={PatientImg} alt='Patient' className='w-100' />
-                        </div>
-                        <div className='text-part w-100'>
-                          <h5>Emily Thomas</h5>
-                          <p className='gray'>Heart Surgery</p>
-                          <p>5:45 PM, <span style={{ color: '#ADADAD' }}>Feb 24</span></p>
-                          <Button className="componentBtn green-btn mt-3">30 Feb 2023</Button>
-                        </div>
-                      </div>
-
-                    </div>
-                    <div className='doctor-card upcomingPatientsCard mb-3'>
-                      <div className='doctor-card-content'>
-                        <div className='image-part d-flex align-items-center'>
-                          <img src={PatientImg} alt='Patient' className='w-100' />
-                        </div>
-                        <div className='text-part w-100'>
-                          <h5>Emily Thomas</h5>
-                          <p className='gray'>Heart Surgery</p>
-                          <p>5:45 PM, <span style={{ color: '#ADADAD' }}>Feb 24</span></p>
-                          <Button className="componentBtn green-btn mt-3">30 Feb 2023</Button>
+                          <Button className="componentBtn green-btn mt-3 w-100">30 Feb 2023</Button>
                         </div>
                       </div>
 
@@ -97,19 +55,26 @@ const Patient = () => {
                 </div>
               </div>
             </Col>
-            <Col lg={7}>
-              <div className='mb-4'>
+            <Col xl={7} lg={12}>
+            <div className='doctorDetailsCard mb-3'>
+              <div className='patientListpartTitle'>
+                <h6>Today’s patient</h6>
+                <Link to="/allPatient">All patient</Link>
+              </div>
+            <div className='mb-4 w-100'>
                 <Link to="/allPatient">
                   <UpcomingPatientsCard />
                 </Link>
                 
               </div>
-              <div className='mb-4'>
+              <div className='mb-4 w-100'>
                 <Link to="/allPatient">
                   <UpcomingPatientsCard />
                 </Link>
                 
               </div>
+            </div>
+              
             </Col>
           </Row>
         </div>

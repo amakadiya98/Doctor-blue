@@ -4,6 +4,7 @@ import Layout from '../../layout'
 import TopBar from '../../components/TopBarNavigation'
 import LeftIcon from '../../assets/images/left.svg'
 import { useLocation, Link, useNavigate } from 'react-router-dom'
+import { Button } from 'react-bootstrap';
 const Settings = () => {
   return (
     <Layout>
@@ -40,6 +41,11 @@ const Settings = () => {
                     <img src={LeftIcon} alt='left'/>
                 </div>
             </Link>
+            <div className='butoon-part mt-5'>
+            <Button className="white-shdow-btn">Logout</Button>
+            <Button className="white-shdow-btn">Delete Account</Button>
+            </div>
+           
         </div>
         </div>
     </Layout>
