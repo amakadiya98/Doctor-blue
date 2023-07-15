@@ -31,7 +31,7 @@ import Foot from './pages/Foot'
 import ApplicationSettingCalendar from './pages/ApplicationSettingCalendar'
 import './assets/css/responisve.css'
 import HealthProfile from './pages/HealthProfile';
-
+import Community from './pages/Community'
 
 
 function App() {
@@ -66,6 +66,7 @@ function App() {
         <Route path='/patientContactInformation' element={<PatientContactInformation />}/>
         <Route path='/foot' element={<Foot />} />
         <Route path='/applicationSettingCalendar' element={<ApplicationSettingCalendar />} />
+        <Route path='/community' element={<Community />}/>
       </Routes>
     </BrowserRouter>
   );

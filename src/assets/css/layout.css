@@ -102,6 +102,9 @@ a{
   right: 15px;
   top: 13px;
 }
+.btn-close:focus{
+  box-shadow: none;
+}
 .modal-header{
   text-align: center;
   justify-content: center;

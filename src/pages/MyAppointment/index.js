@@ -5,7 +5,7 @@ import TopBar from '../../components/TopBarNavigation'
 import { Row, Col, Button } from 'react-bootstrap';
 import '../../assets/css/doctorInfo.css'
 import UpcomingPatientsCard from '../../components/UpcomingPatientsCard'
-
+import Calendar from '../../components/Calendar';
 const MyAppointment = () => {
   return (
     <Layout>
@@ -16,7 +16,7 @@ const MyAppointment = () => {
                 <Col lg={5}>
                     <div className='doctorDetailsCard'>
                         <div className="doctorContent">
-                            calendar
+                        <Calendar/>
                         </div>
                     </div>
                 </Col>

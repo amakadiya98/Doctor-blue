@@ -8,6 +8,7 @@ import { useLocation, Link, useNavigate } from 'react-router-dom'
 import Button from 'react-bootstrap/Button';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import PatientImg from '../../assets/images/patient.png';
+import Calendar  from '../../components/Calendar'
 
 const Patient = () => {
   return (
@@ -18,7 +19,7 @@ const Patient = () => {
             <Col xl={5} lg={12}>
               <div className='doctorDetailsCard'>
                 <div className="doctorContent">
-                  calendar
+                <Calendar/>
                 </div>
                 <div className='patientInfoData'>
                   <h6>Today’s Appointment</h6>
