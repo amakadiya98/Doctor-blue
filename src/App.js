@@ -31,7 +31,9 @@ import Foot from './pages/Foot'
 import ApplicationSettingCalendar from './pages/ApplicationSettingCalendar'
 import './assets/css/responisve.css'
 import HealthProfile from './pages/HealthProfile';
-import Community from './pages/Community'
+import Community from './pages/Community';
+import SplashScreen from './pages/SplashScreen';
+import WorkoutScreen from './pages/WorkoutScreen';
 
 
 function App() {
@@ -45,6 +47,8 @@ function App() {
         <Route path='/exercises' element={<Excersice/>}/>
         <Route path='/excersiceList' element={<ExcersiceList />}/>
         <Route path='/patient' element={<Patient />} />
+        <Route path='/splash' element={<SplashScreen />} />
+        <Route path='/workout' element={<WorkoutScreen />} />
         <Route path='/point' element={<Points />} />
         <Route path='/doctorList' element={<DoctorList />} />
         <Route path='/doctorDetails' element={<DoctorDetails/>} />

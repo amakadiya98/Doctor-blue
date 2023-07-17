@@ -1,4 +1,4 @@
-import { useState, React } from "react";
+import { React } from "react";
 import "../../assets/css/home.css";
 import Layout from "../../layout";
 import TopBar from "../../components/TopBarNavigation";
@@ -10,7 +10,7 @@ import { useNavigate } from "react-router-dom";
 const ExcersiceList = () => {
   const navigate = useNavigate();
   const startWorkoutSession = () => {
-    navigate("/");
+    navigate("/splash");
   };
 
   return (
