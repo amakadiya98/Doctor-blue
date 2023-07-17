@@ -42,6 +42,8 @@ function App() {
         <Route path='/login' element={<Login />} />
         <Route path='/profile' element={<HealthProfile />} />
         <Route path='/dashboard' element={<Dashboard />} />
+        <Route path='/exercises' element={<Excersice/>}/>
+        <Route path='/excersiceList' element={<ExcersiceList />}/>
         <Route path='/patient' element={<Patient />} />
         <Route path='/point' element={<Points />} />
         <Route path='/doctorList' element={<DoctorList />} />
@@ -52,8 +54,6 @@ function App() {
         <Route path='/patientDetails' element={<PatientDetails/>} />
         <Route path='/history' element={<History/>}/>
         <Route path='/allPatient' element={<AllPatient/>}/>
-        <Route path='/excersice' element={<Excersice/>}/>
-        <Route path='/excersiceList' element={<ExcersiceList />}/>
         <Route path='/personalInformation' element={<PersonalInformation/>}/>
         <Route path='/operationalInformation' element={<OperationalInformation/>}/>
         <Route path='/contactInformation' element={<ContactInformation/>}/>
