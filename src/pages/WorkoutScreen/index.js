@@ -8,9 +8,11 @@ import clockIcon from "../../assets/images/clock-five.svg";
 import pauseBtn from "../../assets/images/pause-btn.svg";
 import Ex1 from "../../assets/images/ex-1.png";
 import modalVideo from "../../assets/images/modal-video.svg";
+import doneImg from "../../assets/images/done-icon.svg";
 
 const WorkoutScreen = () => {
   const [workoutModel, setWorkoutModel] = useState(false);
+  const [completeWorkout, setCompleteWorkout] = useState(false);
 
   return (
     <Layout>
@@ -52,7 +54,12 @@ const WorkoutScreen = () => {
                 Next
               </button>
               <div className="right">
-                <button className="outline-primary-btn">Next</button>
+                <button
+                  className="outline-primary-btn"
+                  onClick={() => setCompleteWorkout(true)}
+                >
+                  Next
+                </button>
               </div>
             </div>
           </div>
@@ -62,6 +69,7 @@ const WorkoutScreen = () => {
         show={workoutModel}
         onHide={() => setWorkoutModel(false)}
         size="lg"
+        className="main-container"
       >
         <Modal.Body>
           <div className="top-heading">
@@ -106,9 +114,41 @@ const WorkoutScreen = () => {
               </span>
             </div>
             <div className="workout-desc">
-                <span className="workout-reps">2/15 reps</span>
-                <p>02:14</p>
-                <button className="primary-btn">Report to Doctor</button>
+              <span className="workout-reps">2/15 reps</span>
+              <p>02:14</p>
+              <button className="primary-btn">Report to Doctor</button>
+            </div>
+          </div>
+        </Modal.Body>
+      </Modal>
+      {/* workout complete modal */}
+      <Modal
+        show={completeWorkout}
+        onHide={() => setCompleteWorkout(false)}
+        size="md"
+        className="complete-modal"
+      >
+        <Modal.Body>
+          <div className="top-heading">
+            <button
+              className="btn btn-transpatent"
+              onClick={() => setCompleteWorkout(false)}
+            >
+              X
+            </button>
+          </div>
+          <div className="content-block">
+            <img src={doneImg} alt="modal-video" />
+          </div>
+          <div className="bottom-block">
+            <div className="workout-desc">
+              <span className="workout-reps">Well Done!</span>
+              <p>Congratulations On finishing </p>
+              <span className="modal-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </span>
+              <button className="primary-btn">Continue</button>
             </div>
           </div>
         </Modal.Body>

@@ -3,7 +3,7 @@
   overflow-x: hidden;
 }
 .top-orange-box {
-  background-color: #fdf5f2;
+  background-color: #EBF7FF;
   height: 150px;
 }
 .main-content-part.topBox .innerInfo {
@@ -186,7 +186,7 @@
 }
 
 .doctorDetailsCard .bottom-part {
-  background-color: #fdf5f2;
+  background-color: #F6FCFF;
   width: 100%;
   text-align: center;
   padding: 20px 0;

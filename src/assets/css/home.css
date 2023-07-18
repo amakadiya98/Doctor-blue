@@ -145,3 +145,37 @@
   width: 100%;
   gap: 20px;
 }
+
+.main-content-part .top-nav-part {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.main-content-part .top-nav-part select {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 18px;
+}
+.main-content-part .top-nav-part .location-part {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.main-content-part .top-nav-part h3 {
+  font-size: 36px;
+  font-weight: 400;
+}
+.main-content-part .top-nav-part .location-part span img {
+  height: 20px;
+}
+.main-content-part.appointment-page {
+  height: 90vh;
+}
+.main-content-part .top-nav-part .content-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1.5rem 0 2rem;
+}

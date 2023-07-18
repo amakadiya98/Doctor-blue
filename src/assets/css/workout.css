@@ -99,8 +99,8 @@
   padding: 14px 32px;
   border-radius: 26px;
 }
-.modal-body,
-.modal-content {
+.main-container .modal-body,
+.main-container .modal-content {
   padding: 0;
 }
 .top-heading {
@@ -118,27 +118,27 @@
   color: #000;
   font-weight: 500;
 }
-.modal-body .content-block {
+.main-container .modal-body .content-block {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
-.modal-body .content-block img {
+.main-container .modal-body .content-block img {
   width: 100%;
 }
-.modal-body .bottom-block {
+.main-container .modal-body .bottom-block {
   display: flex;
   flex-direction: column;
   padding: 20px 30px;
   gap: 20px;
 }
-.bottom-block .review {
+.main-container .bottom-block .review {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   gap: 10px;
 }
-.bottom-block .review .no-block {
+.main-container .bottom-block .review .no-block {
   display: flex;
   width: 32px;
   height: 32px;
@@ -150,15 +150,57 @@
   justify-content: center;
   margin: 0;
 }
-.bottom-block .review .rv-text {
+.main-container .bottom-block .review .rv-text {
   font-size: 15px;
   margin: 0;
   color: #adadad;
 }
 
-.bottom-block .workout-desc {
+.main-container .bottom-block .workout-desc {
     display: flex;
     flex-direction: column;
     width: 100%;
     align-items: center;
+}
+
+.complete-modal .top-heading {
+  border-bottom: none;
+  justify-content: flex-end;
+  padding: 0;
+}
+.complete-modal .content-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.complete-modal .workout-desc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 25px;
+}
+.complete-modal .workout-desc .workout-reps {
+  font-size: 32px;
+}
+.complete-modal .workout-desc p {
+  width: 55%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 26px;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+.complete-modal .workout-desc .modal-text {
+  font-size: 16px;
+  color: #adadad;
+  line-height: 21px;
+  width: 75%;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+.difficult-modal .primary-btn {
+  width: 10%;
+  margin: 2.5rem auto 1rem;
 }

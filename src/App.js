@@ -7,7 +7,7 @@ import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
 import Points from './pages/Points'
 import Patient from './pages/Patient'
-import DoctorList from './pages/DoctorList';
+import AppointmentList from './pages/Appointment';
 import DoctorDetails from './pages/DoctorDetails'
 import DoctorAllSlot from './pages/DoctorAllSlot'
 import PatientList from './pages/PatientList'
@@ -21,7 +21,7 @@ import PersonalInformation from './pages/PersonalInformation'
 import OperationalInformation from './pages/OperationalInformation'
 import ContactInformation from './pages/ContactInformation'
 import DoctorDetailsForm from './pages/DoctorDetailsForm'
-import MyAppointment from './pages/MyAppointment'
+import BookAppointment from './pages/BookAppointment'
 import Settings from './pages/Settings'
 import PatientContactDetails from './pages/PatientContactDetails'
 import Chat from './pages/Chat'
@@ -34,6 +34,9 @@ import HealthProfile from './pages/HealthProfile';
 import Community from './pages/Community';
 import SplashScreen from './pages/SplashScreen';
 import WorkoutScreen from './pages/WorkoutScreen';
+import CommunityCardDetails from './pages/CommunityCardDetails';
+import Difficult from './pages/Difficult';
+import AppointmentToHospital from './pages/BookAppointment/AppointmentToHospital';
 
 
 function App() {
@@ -49,8 +52,13 @@ function App() {
         <Route path='/patient' element={<Patient />} />
         <Route path='/splash' element={<SplashScreen />} />
         <Route path='/workout' element={<WorkoutScreen />} />
+        <Route path='/difficult' element={<Difficult />}/>
+        <Route path='/community' element={<Community />}/>
+        <Route path='/communityDetails' element={<CommunityCardDetails />} />
         <Route path='/point' element={<Points />} />
-        <Route path='/doctorList' element={<DoctorList />} />
+        <Route path='/appointment' element={<AppointmentList />} />
+        <Route path='/bookAppointment' element={<BookAppointment/>}/>
+        <Route path='/appointmentHospital' element={<AppointmentToHospital/>}/>
         <Route path='/doctorDetails' element={<DoctorDetails/>} />
         <Route path='/doctorAllSlot' element={<DoctorAllSlot/>} />
         <Route path='/patientList' element={<PatientList/>}/>
@@ -62,7 +70,6 @@ function App() {
         <Route path='/operationalInformation' element={<OperationalInformation/>}/>
         <Route path='/contactInformation' element={<ContactInformation/>}/>
         <Route path='/doctorDetailsForm' element={<DoctorDetailsForm/>}/>
-        <Route path='/myAppointment' element={<MyAppointment/>}/>
         <Route path='/settings' element={<Settings />}/>
         <Route path='/patientContactDetails' element={<PatientContactDetails />}/>
         <Route path='/chat' element={<Chat />}/>
@@ -70,7 +77,6 @@ function App() {
         <Route path='/patientContactInformation' element={<PatientContactInformation />}/>
         <Route path='/foot' element={<Foot />} />
         <Route path='/applicationSettingCalendar' element={<ApplicationSettingCalendar />} />
-        <Route path='/community' element={<Community />}/>
       </Routes>
     </BrowserRouter>
   );
