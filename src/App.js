@@ -37,6 +37,8 @@ import WorkoutScreen from './pages/WorkoutScreen';
 import CommunityCardDetails from './pages/CommunityCardDetails';
 import Difficult from './pages/Difficult';
 import AppointmentToHospital from './pages/BookAppointment/AppointmentToHospital';
+import ProfileDoctor from './pages/ProfileDoctor';
+import ProfileApointment from './pages/ProfileApointment';
 
 
 function App() {
@@ -60,6 +62,8 @@ function App() {
         <Route path='/bookAppointment' element={<BookAppointment/>}/>
         <Route path='/appointmentHospital' element={<AppointmentToHospital/>}/>
         <Route path='/doctorDetails' element={<DoctorDetails/>} />
+        <Route path='/profileDoctor' element={<ProfileDoctor />} />
+        <Route path='/profileApointment' element={<ProfileApointment/>}/>
         <Route path='/doctorAllSlot' element={<DoctorAllSlot/>} />
         <Route path='/patientList' element={<PatientList/>}/>
         <Route path='/upcomingAppointment' element={<UpcomingAppointment/>}/>

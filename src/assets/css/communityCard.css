@@ -1,16 +1,195 @@
 .content {
     position: relative;
 }
+
 .main-content-part.small-content {
     height: 75vh;
 }
+
+.main-content-part.small-content .banner {
+    width: 100%;
+    border-radius: 14px;
+}
+
+.main-content-part.small-content .titlePart {
+    padding: 34px 0;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.main-content-part.small-content .titlePart .title {
+    font-style: normal;
+    font-family: 'Poppins';
+    text-align: left;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #1D2432;
+    margin-bottom: 15px;
+}
+
+.main-content-part.small-content .titlePart .likeCount {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-content-part.small-content .titlePart .likeCount .textPart .text {
+    font-style: normal;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #ADADAD;
+}
+
+.main-content-part.small-content .titlePart .likeCount .imagePart {
+    display: flex;
+    gap: 18px;
+}
+
+.main-content-part.small-content .titlePart .likeCount .imagePart .image {
+    width: 28px;
+    height: 25px;
+}
+
+.main-content-part.small-content .commentSection {
+    padding: 21px 0;
+}
+
+.main-content-part.small-content .commentSection .heading {
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #1D2432;
+}
+
+.main-content-part.small-content .commentSection .commentPart {
+    display: flex;
+    padding-top: 10px;
+}
+
+.main-content-part.small-content .commentSection .commentPart .profilePart {
+    padding-right: 20px;
+}
+
+.main-content-part.small-content .commentSection .commentPart .profilePart .profile {
+    width: 68px;
+    height: 68px;
+}
+
+.main-content-part.small-content .commentSection .commentPart .textPart {
+    width: 100%;
+}
+
+.main-content-part.small-content .commentSection .commentPart .textPart .name {
+    font-weight: 500;
+    line-height: 26px;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #1D2432;
+}
+
+.main-content-part.small-content .commentSection .commentPart .textPart .comment {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0px;
+    color: #1D2432;
+}
+
+.main-content-part.small-content .commentSection .commentPart .textPart .bottomPart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-content-part.small-content .commentSection .commentPart .textPart .bottomPart .leftPart {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.main-content-part.small-content .commentSection .commentPart .textPart .bottomPart .leftPart .time {
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #ADADAD;
+}
+
+.main-content-part.small-content .commentSection .commentPart .textPart .bottomPart .leftPart .LikeCount {
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #1D2432;
+}
+
+.main-content-part.small-content .commentSection .commentPart .textPart .bottomPart .rightPart {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+}
+
+.main-content-part.small-content .commentSection .commentPart .textPart .bottomPart .rightPart .text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #1D2432;
+}
+
+.main-content-part.small-content .commentSection .commentPart .textPart .bottomPart .rightPart .image {
+    width: 25px;
+    height: 22px;
+}
+
 .content .bottom-footer {
     position: fixed;
     bottom: 0;
     right: 0;
     display: flex;
     width: 100%;
-    height: 80px;
+    height: 120px;
     box-shadow: 0px 1px 15px #0000000f;
-    padding-left: 285px;
+    padding: 31px 35px 31px 300px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.content .bottom-footer .leftPart {
+    width: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.content .bottom-footer .leftPart .ProfileImg {
+    width: 100%;
+}
+
+.content .bottom-footer .rightPart {
+    width: 93%;
+    display: flex;
+    align-items: center;
+}
+
+.content .bottom-footer .rightPart .form {
+    width: 100%;
+    display: flex;
+}
+
+.content .bottom-footer .rightPart .form .send {
+    width: 100%;
+    padding: 16px 24px;
+    border: 1px solid #EAEAEA;
+    border-radius: 48px;
+}
+.content .bottom-footer .rightPart .form .sendButton{
+    margin-left: -80px;
+    position: relative;
+    border: none;
+    background-color: transparent;
 }

@@ -11,6 +11,7 @@ import { customStyle } from "../../components/Style";
 
 const Difficult = () => {
 const [addModal, setAddModal] = useState(false);
+const [addNoteModal, setAddNoteModal] = useState(false);
 const options = [
     { value: 'difficult', label: 'difficult'},
     { value: 'intermediate', label: 'intermediate'},
@@ -22,7 +23,7 @@ const options = [
       <TopBar />
       <div className="main-content-part excersiceList">
         <div className="exercise-content">
-          <div className="exercise-card mb-3">
+          <div className="exercise-card mb-3" onClick={() => setAddNoteModal(true)}>
             <div className="img-text-part">
               <div className="img-block">
                 <img src={Ex1} alt="ex-1" />
@@ -142,6 +143,32 @@ const options = [
                     defaultValue={options[0]}
                     styles={customStyle}
                 />
+            </div>
+              <button className="primary-btn">Done</button>
+          </div>
+        </Modal.Body>
+      </Modal>
+      <Modal
+        show={addNoteModal}
+        onHide={() => setAddNoteModal(false)}
+        size="md"
+        className="main-container difficult-modal"
+        centered
+      >
+        <Modal.Body>
+          <div className="top-heading" style={{border: 'none'}}>
+            <p style={{textAlign: 'center', width: "90%"}}>Note</p>
+            <button
+              className="btn btn-transpatent"
+              onClick={() => setAddNoteModal(false)}
+            >
+              X
+            </button>
+          </div>
+          <div className="bottom-block">
+            <div className="input-group">
+                <label>Note</label>
+                <textarea name="note" id="note" cols="50" rows="5" placeholder={"Write note here..."}></textarea>
             </div>
               <button className="primary-btn">Done</button>
           </div>
