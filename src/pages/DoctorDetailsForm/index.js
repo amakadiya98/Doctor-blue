@@ -17,7 +17,7 @@ const DoctorDetailsForm = () => {
   return (
     <Layout>
       <TopBar />
-      <div className='main-content-part'>
+      <div className='main-content-part doctorDetailsForm-part  '>
         <div className='doctorName'>
           <div className='image-part mb-2'>
             <img src={DoctorImg} alt='doctor' />

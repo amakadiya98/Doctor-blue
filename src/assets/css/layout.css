@@ -349,4 +349,11 @@ input:focus{
 .timer-block .yes-no-radio .box{
   min-width: 60px;
   padding: 10px 12px;
+  
+}
+
+.main-content-part.doctorDetailsForm-part{
+  margin: 0;
+  background: transparent linear-gradient(180deg, #E9F7FB 0%, #FBFCFD 100%) 0% 0% no-repeat padding-box;
+  background-repeat: no-repeat;
 }
