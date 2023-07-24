@@ -204,3 +204,13 @@
   width: 10%;
   margin: 2.5rem auto 1rem;
 }
+@media screen and (max-width: 991px) {
+  
+  .workout-details .next-workout-card .exercise-card{
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .workout-details .control .timmer{
+    font-size: 70px;
+  }
+}

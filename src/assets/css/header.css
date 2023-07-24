@@ -72,3 +72,26 @@
     color: black;
     font-size: 20px;
 }
+@media screen and (max-width: 991px) {
+  .header-main .search-part input{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header-main{
+    padding: 12px 0;
+  }
+  .header-main .search-part input{
+    width: 100%;
+  }
+  .header-main .profile-part .profile{
+    gap: 0;
+  }
+  .header-main .profile-part .profile .btn-custom{
+    font-size: 12px;
+  }
+  .header-main .search-part{
+    flex: auto;
+    margin-right: 10px;
+  }
+}

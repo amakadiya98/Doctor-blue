@@ -357,3 +357,36 @@ input:focus{
   background: transparent linear-gradient(180deg, #E9F7FB 0%, #FBFCFD 100%) 0% 0% no-repeat padding-box;
   background-repeat: no-repeat;
 }
+@media screen and (max-width: 991px) {
+  .main-content-part.topBox .innerInfo .row{
+    gap: 20px;
+  }
+  .doctorDetailsCard.startdata .rightPartData .filed{
+    margin: 0 20px !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .layout-main .sider{
+    display: none;
+  }
+  .layout-main .content-part .header-part{
+    padding: 20px;
+  }
+  .layout-main .content-part .content{
+    padding: 10px 0;
+  }
+  .main-content-part.topBox .innerInfo{
+    padding: 0 20px 20px !important;
+  }
+  .main-content-part.topBox .innerInfo.withoutOrange .row{
+    gap: 20px;
+  }
+  .main-content-part{
+    height: 75vh;
+  }
+  .layout-main .content-part .content{
+    margin-top: 70px;
+  }
+  
+}

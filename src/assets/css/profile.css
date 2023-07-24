@@ -75,3 +75,20 @@
 .form-data .filed .file-area input{
   outline: none;
 }
+@media screen and (max-width: 991px) {
+  .profile-main .header-part{
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .profile-main .header-part{
+    padding: 20px;
+  }
+  .header-part .left-part h2{
+    font-size: 24px;
+  }
+  .profile-main .form-data.full-width-data .buttonPart{
+    margin-bottom: 2rem;
+  }
+}

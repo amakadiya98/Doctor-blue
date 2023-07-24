@@ -323,3 +323,33 @@
     margin-bottom: 25px;
     color: #1D2432;
 }
+
+
+@media screen and (max-width: 991px) {
+  .login-main{
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 20px 0;
+  }
+  .login-main .content-wrapper{
+    grid-template-columns: 100%;
+  }
+  .login-main .form-part .content .header-part{
+    width: 100%;
+    text-align: center;
+  }
+  .login-main .form-part .content .middle-form{
+    margin: auto;
+    max-width: 90%;
+    width: 90%;
+  }
+  .login-main .form-part .content .action-part{
+    margin: auto;
+  }
+  .login-main .banner-part .banner-content .text-part{
+    max-width: 90%;
+  }
+  .login-main .form-part{
+    padding: 20px;
+  }
+}

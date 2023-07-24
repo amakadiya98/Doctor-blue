@@ -1066,3 +1066,44 @@
   background: #EBF7FF;
   border-radius: 7px;
 }
+@media screen and (max-width: 991px){
+  .exercise-tab-part .nav-tabs, .exercise-tab-part .nav-tabs .nav-link{
+    row-gap: 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .doctor-card .doctor-card-content{
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .doctor-card .doctor-card-content .image-part{
+    width: 100px;
+    height: 100px;
+  }
+  .topBar{
+    padding: 20px;
+  }
+  .topBar .theraphy-name .title{
+    font-size: 16px;
+  }
+  .breadcrumb-item a, .breadcrumb-item.active{
+    font-size: 14px;
+  }
+  .breadcrumb-item + .breadcrumb-item::before{
+    height: 14px;
+    width: 14px;
+    background-position: center;
+    margin-right: 4px;
+    margin-top: 4px;
+  }
+  .breadcrumb{
+    align-items: center;
+  }
+  
+}
+.top-heading{
+  font-weight: 500;
+}
+.modal-body .input-group  label{
+  font-weight: 500;
+}

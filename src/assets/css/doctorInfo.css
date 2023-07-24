@@ -346,3 +346,8 @@
     width: 100%;
     padding: 10px 40px;
 }
+@media screen and (max-width: 767px) {
+  .doctorDetailsCard{
+    padding: 30px;
+  }
+}
