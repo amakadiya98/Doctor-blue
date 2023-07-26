@@ -3,12 +3,14 @@ import Layout from "../../layout";
 import { Button, Modal } from "react-bootstrap";
 import TopBar from "../../components/TopBarNavigation";
 import "../../assets/css/workout.css";
-import videoBanner from "../../assets/images/workout-video.svg";
+import videoBanner from "../../assets/images/workout-video.png";
 import clockIcon from "../../assets/images/clock-five.svg";
 import pauseBtn from "../../assets/images/pause-btn.svg";
 import Ex1 from "../../assets/images/ex-1.png";
 import modalVideo from "../../assets/images/modal-video.svg";
 import doneImg from "../../assets/images/done-icon.svg";
+import Info from '../../assets/images/info.png'
+import Zoom from '../../assets/images/zoom.png'
 
 const WorkoutScreen = () => {
   const [workoutModel, setWorkoutModel] = useState(false);
@@ -20,6 +22,14 @@ const WorkoutScreen = () => {
       <div className="main-content-part main-container">
         <div className="top-video-block">
           <img src={videoBanner} alt="video-banner" />
+            <div className="overImageIcon">
+                <button className="icon-btn">
+                  <img src={Info} alt="info"/>
+                </button>
+                <button className="icon-btn">
+                  <img src={Zoom} alt="zoom" className="zoom"/>
+                </button>
+            </div>
         </div>
         <div className="workout-details">
           <div className="type">
